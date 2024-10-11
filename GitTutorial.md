@@ -28,3 +28,13 @@
 * git restore: отмена изменений
 * git rm: удаление файлов из индекса
 * git reset: откат коммита
+
+## Работа с удаленными репозиториями
+
+Связь между вашим локальным и удалённым репозиторием на GitHub:
+git remote add origin https://github.com/Obel777/GitLessons.git
+git branch -M main
+git push -u origin main
+
+* git push: отправка изменений в удалённый репозиторий
+* git pull: получение изменений из удалённого репозитория
